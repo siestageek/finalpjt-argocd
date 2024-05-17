@@ -6,7 +6,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: frontendapp
+    name: frontendapp-deployment
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 20
@@ -19,7 +19,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: couponapp
+    name: couponapp-deployment
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 20
@@ -32,7 +32,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: discountapp
+    name: discountapp-deployment
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 20
@@ -45,7 +45,7 @@ spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: memberapp
+    name: memberapp-deployment
   minReplicas: 1
   maxReplicas: 10
   targetCPUUtilizationPercentage: 20  
